@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap');
+:root{
+  --main-color: #d1d1d1;
+  --darkblue-color: #171E2F;
+  --dark-text: #4E5566;
+}
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  background: linear-gradient(271deg, #24272B 0%, #0A1C24 23.33%, #151C19 51.41%, #0A1C24 83.71%, #10111B 100%);
+}
+.paper{
+  display: flex;
+  padding: 24px;
+  width: 100%;
+ justify-content: space-between;
+  background-color: black;
+}
+.techTitle{
+  color: var(--main-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+.techDesc{
+  color: var(--dark-text);
+  font-family: 'Roboto mono', sans-serif;
+  font-size: 16px;
+}
